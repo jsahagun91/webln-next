@@ -6,8 +6,24 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+button {
+  background: orange;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  border-radius: 8px;
+  border-color: orange;
+  border: 0;
+  padding: 5px;
+  margin: 10px;
+}
+
 a {
-  color: inherit;
+  color: orange;
   text-decoration: none;
 }
 

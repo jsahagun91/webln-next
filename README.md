@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a ⚡️ lightning app template using [Next.js](https://nextjs.org/) and [WebLn](https://webln.dev/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). Implementing APIs from WebLN.
+
+ <!-- Alby does not support verifySignature method -->
+
+## Lightning React Tutorial
+[Lightning in React - Beginners Tutorial](https://youtu.be/fTzW9iJhiNg)  
 
 ## Getting Started
 

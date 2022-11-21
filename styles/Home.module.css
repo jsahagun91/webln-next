@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: orange;
   text-decoration: none;
 }
 
@@ -88,8 +88,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color:orange;
+  border-color:orange;
 }
 
 .card h2 {
@@ -126,4 +126,10 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.button {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
