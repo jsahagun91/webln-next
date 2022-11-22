@@ -6,12 +6,12 @@ import { useState } from 'react'
 
 export default function Home() {
 
-  const [nodeInfo, setNodeInfo] = useState("");
+  const [nodeInfo, setNodeInfo] = useState('');
   const [amount, setAmount] = useState(0);
-  const [webln, setWebln] = useState("");
-  const [paymentRequest, setPaymentRequest] = useState("");
-  const [message, setMessage] = useState("");
-  const [signature, setSignature] = useState("");
+  const [webln, setWebln] = useState('');
+  const [paymentRequest, setPaymentRequest] = useState('');
+  const [message, setMessage] = useState('');
+  const [signature, setSignature] = useState('');
   
   async function loadRequestProvider() {
     const webln = await requestProvider();
